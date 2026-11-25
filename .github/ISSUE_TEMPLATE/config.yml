@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account or billing
+    url: mailto:hi@html.wiki
+    about: Questions about your account, plan or payment.

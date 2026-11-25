@@ -1,0 +1,26 @@
+name: Report a problem
+description: Something in html.wiki doesn't work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What went wrong
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: html.wiki version
+      placeholder: "0.4.0"
+  - type: input
+    id: agent
+    attributes:
+      label: Agent
+      placeholder: "Claude Code 2.1.300, Codex, Cursor…"
+  - type: dropdown
+    id: page
+    attributes:
+      label: Page
+      options: [Decision Sheet, Wiki Page, Plan, Preview, Presentation, Blueprint, Workspace Master, Insight, Not a page]
